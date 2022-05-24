@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -86,11 +101,63 @@
     <None Include="Resources\Image1.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bg5.gif" />
+    <Content Include="1frame.png" />
+    <Content Include="2frame.png" />
+    <Content Include="3frame.png" />
+    <Content Include="4frame.png" />
+    <Content Include="5frame.png" />
     <Content Include="bgmus.wav" />
+    <Content Include="Properties\slime-attack-0.png" />
+    <Content Include="Properties\slime-attack-1.png" />
+    <Content Include="Properties\slime-attack-2.png" />
+    <Content Include="Properties\slime-attack-3.png" />
+    <Content Include="Properties\slime-attack-4.png" />
+    <Content Include="Properties\slime-die-0.png" />
+    <Content Include="Properties\slime-die-1.png" />
+    <Content Include="Properties\slime-die-2.png" />
+    <Content Include="Properties\slime-die-3.png" />
+    <Content Include="Properties\slime-hurt-0.png" />
+    <Content Include="Properties\slime-hurt-1.png" />
+    <Content Include="Properties\slime-hurt-2.png" />
+    <Content Include="Properties\slime-hurt-3.png" />
+    <Content Include="Properties\slime-idle-0.png" />
+    <Content Include="Properties\slime-idle-1.png" />
+    <Content Include="Properties\slime-idle-2.png" />
+    <Content Include="Properties\slime-idle-3.png" />
+    <Content Include="Properties\slime-move-0.png" />
+    <Content Include="Properties\slime-move-1.png" />
+    <Content Include="Properties\slime-move-2.png" />
+    <Content Include="Properties\slime-move-3.png" />
     <Content Include="Resources\Ahads-history.png" />
     <Content Include="Resources\Alt-Durt.png" />
     <Content Include="Resources\bg4.jpg" />
+    <None Include="Resources\hit\1frame.png" />
+    <None Include="Resources\hit\2frame.png" />
+    <None Include="Resources\hit\3frame.png" />
+    <None Include="Resources\hit\4frame.png" />
+    <None Include="Resources\hit\5frame.png" />
+    <Content Include="Resources\slime-attack-0.png" />
+    <Content Include="Resources\slime-attack-1.png" />
+    <Content Include="Resources\slime-attack-2.png" />
+    <Content Include="Resources\slime-attack-3.png" />
+    <Content Include="Resources\slime-attack-4.png" />
+    <Content Include="Resources\slime-die-0.png" />
+    <Content Include="Resources\slime-die-1.png" />
+    <Content Include="Resources\slime-die-2.png" />
+    <Content Include="Resources\slime-die-3.png" />
+    <Content Include="Resources\slime-hurt-0.png" />
+    <Content Include="Resources\slime-hurt-1.png" />
+    <Content Include="Resources\slime-hurt-2.png" />
+    <Content Include="Resources\slime-hurt-3.png" />
+    <Content Include="Resources\slime-idle-0.png" />
+    <Content Include="Resources\slime-idle-1.png" />
+    <Content Include="Resources\slime-idle-2.png" />
+    <Content Include="Resources\slime-idle-3.png" />
+    <Content Include="Resources\slime-move-0.png" />
+    <Content Include="Resources\slime-move-1.png" />
+    <Content Include="Resources\slime-move-2.png" />
+    <Content Include="Resources\slime-move-3.png" />
+    <None Include="Resources\space-bg2.png" />
     <None Include="Resources\bg5.gif" />
     <Content Include="Resources\left1.png" />
     <Content Include="Resources\left2.png" />
@@ -103,6 +170,18 @@
     <Content Include="Resources\right2.png" />
     <Content Include="Resources\right3.png" />
     <Content Include="Resources\right4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
