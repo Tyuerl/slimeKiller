@@ -329,6 +329,12 @@ namespace mygame
         {
 
         }
+
+        private void Form1_MouseClick(object sender, MouseEventArgs e)
+        {
+            _human.Atack(enemys, 0); // 0 - animation only
+            _human.stopMove();
+        }
     }
 
 }
